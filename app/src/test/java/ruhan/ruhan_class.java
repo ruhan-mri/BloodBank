@@ -3,6 +3,7 @@ package ruhan;
 public class ruhan_class {
     String name;
     int roll;
+
     String Id;
 
     public ruhan_class(String name, int roll, String id) {
@@ -17,6 +18,7 @@ public class ruhan_class {
 
     public void setId(String id) {
         Id = id;
+
     }
 
     public int getRoll() {
